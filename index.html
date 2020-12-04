@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <meta name="author" content="Kevin Murray">
+    <meta name="description" content="Just a normal Tic-Tac-Toe game nothing to see here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <audio src="media/thisIsntAFilenameThisIsACryForHelpInAFieldInIowaYoullFindASmallWhiteBoxOpenItAnd.mp3" autoplay loop></audio>
+    <audio src="media/wow-sound-effect_qA8XOni.mp3" id="wow"></audio>
+    
+    <audio src="media/bongo-feet.mp3" id="bongoFeet"></audio>
+    <audio src="media/cartoon_bite_sound_effect.mp3" id="bite"></audio>
+    <audio src="media/cartoon-boing.mp3" id="boing"></audio>
+    <audio src="media/cartoon-flip_0mhhTzj.mp3" id="flip"></audio>
+    <audio src="media/cartoon-hop-soundbible_i7zsQYe.mp3" id="hop"></audio>
+    <audio src="media/cartoonslip.mp3" id="slip"></audio>
+    <audio src="media/cartoonsplash.mp3" id="splash"></audio>
+    <audio src="media/couin.mp3" id="couin"></audio>
+    <audio src="media/strings_ofg6Kxg.mp3" id="strings"></audio>
+    <audio src="media/the-original-trombone-gobble.mp3" id="gobble"></audio>
+
+    <img src="media/lookIntoTheVoidColdAndUnending.gif" class="help">
+    <img src="media/AnAbsoluteAffrontToGod.gif" class="godhasleft">
+
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+        <p>how to play: tic tac tow : get 3 in a rowe with Xor O!!! then u win!!!!!!!!!!!!!</p>
+    </header>
+
+    <section>
+        
+        <div class="cells">
+            <div onclick="placeShape('11'); playRandomSound()" id="11" class="box"></div>
+            <div onclick="placeShape('12'); playRandomSound()" id="12" class="box"></div>
+            <div onclick="placeShape('13'); playRandomSound()" id="13" class="box"></div>
+            <div onclick="placeShape('21'); playRandomSound()" id="21" class="box"></div>
+            <div onclick="placeShape('22'); playRandomSound()" id="22" class="box"></div>
+            <div onclick="placeShape('23'); playRandomSound()" id="23" class="box"></div>
+            <div onclick="placeShape('31'); playRandomSound()" id="31" class="box"></div>
+            <div onclick="placeShape('32'); playRandomSound()" id="32" class="box"></div>
+            <div onclick="placeShape('33'); playRandomSound()" id="33" class="box"></div>
+        </div>
+    </section>
+    <section>
+        <p id="turn"></p>
+        <h1 id="winner"></h1>
+        <button onclick="resetGame()">Reset</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
